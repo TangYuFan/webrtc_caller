@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="bottom"
+    android:padding="20dp">
+
+    <!-- 第一行：切换摄像头 -->
+    <TextView
+        android:id="@+id/wr_switch_camera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:drawablePadding="5dp"
+        android:drawableTop="@drawable/webrtc_switch_camera"
+        android:text="@string/webrtc_switch_camera"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/wr_control_text_size"
+        android:layout_gravity="center" />
+
+    <!-- 第二行：静音、挂断、免提 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <!-- 静音 -->
+        <TextView
+            android:id="@+id/wr_switch_mute"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawablePadding="5dp"
+            android:drawableTop="@drawable/webrtc_btn_voice_mute"
+            android:gravity="center_horizontal"
+            android:text="@string/webrtc_chat_mute"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/wr_control_text_size"
+            android:layout_marginEnd="10dp" />
+
+        <!-- 挂断 -->
+        <TextView
+            android:id="@+id/wr_switch_hang_up"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawablePadding="5dp"
+            android:drawableTop="@drawable/webrtc_cancel"
+            android:gravity="center_horizontal"
+            android:text="@string/webrtc_chat_hang_up"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/wr_control_text_size"
+            android:layout_marginEnd="10dp" />
+
+        <!-- 免提 -->
+        <TextView
+            android:id="@+id/wr_hand_free"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawablePadding="5dp"
+            android:drawableTop="@drawable/webrtc_btn_voice_hand_free"
+            android:gravity="center_horizontal"
+            android:text="@string/webrtc_chat_hands_free"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/wr_control_text_size" />
+
+    </LinearLayout>
+</LinearLayout>
