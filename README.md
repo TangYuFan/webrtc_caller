@@ -4,9 +4,9 @@
 
 <table>
 <tr>
-    <th><img src="webrtc_client/img/p1.png" width="270" height="400"></th>
-    <th><img src="webrtc_client/img/p2.png" width="270" height="400"></th>
-    <th><img src="webrtc_client/img/p4.png" width="270" height="400"></th>
+    <th><img src="webrtc_client/img/p1.png" width="326" height="709"></th>
+    <th><img src="webrtc_client/img/p2.png" width="326" height="709"></th>
+    <th><img src="webrtc_client/img/p4.png" width="326" height="709"></th>
 </tr>
 </table>
 </div>
